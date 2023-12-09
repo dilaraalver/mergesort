@@ -1,0 +1,8 @@
+[16,21,11,8,12,22]
+Adım 1: [16,21,11] | [8,12,22] (dizi ikiye bölünür)
+Adım 2: [16] | [21,11] | [8] | [12,22] (kendi içinde tekrar ikiye bölündü)
+Adım 3: [16, 21, 11] | [8, 12, 22]     (bolunen dızıler bırlesır)
+Adım 4: [8, 12, 16, 21, 11, 22] 
+Adım 5: [8, 11, 12, 16, 21, 22] 
+
+Big-O : O(n log n)
